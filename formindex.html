@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <style></style>
+</head>
+
+<body>
+    <h1>YOUR INFORMATION</h1>
+    <form id="forminfo" action="">
+        <lable>your name</lable>
+        <input type="text" id="name"><br>
+        <br>
+        <lable>Your Email ID</lable>
+        <input type="email" id="email"><br>
+        <br>
+        <lable>Mobile Number</lable>
+        <input type="number" id="number"><br>
+        <br>
+        <select name="satate">
+            <option value="usa">GUJRAT</option>
+            <option value="india">RAJASTAN</option>
+            <option value="uk">MP</option>
+        </select><br>
+        <br>
+
+
+        <button id="button">Submit</button>
+    </form>
+
+    <script>
+        document.getElementById('forminfo').addEventListener('submit', function (event) {
+            event.preventDefault();
+            const name = document.getElementById('name').value;
+            const email = document.getElementById('email').value;
+            const mobile = document.getElementById('number').value;
+            const userData = { name, email, mobil };
+            localStorage.setItem('user', JSON.stringify(userData));
+            if (!name || !email || !mobile) {
+                alert('Please fill out all fields!');
+                return;
+            }
+            alert('Form data saved successfully!');
+            this.reset();
+        })
+    </script>
+</body>
+
+</html>
