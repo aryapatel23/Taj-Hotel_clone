@@ -72,3 +72,39 @@ video{
     display: flex;
     justify-content: center;
 }
+.latestofferhr{
+    margin-left: 150px;
+}
+.latestoffer{
+    margin-top: 200px;
+}
+.latest{
+    font-size: 40px;
+    opacity: 0.8;
+    margin-left: 300px;
+    margin-top: -30px;
+}
+.latestoffertxt{
+    margin-left: 750px;
+    margin-top: -45px;
+    font-size: 20px;
+    opacity: 0.3;
+}
+.latestofferimgs{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+.overlapelatest{
+    display: flex;
+    
+}
+.more{
+    text-decoration: underline;
+    color: #AD8B3A;
+}
+.overlpeele{
+    background-color: #45443F;
+    width: 250px;
+    height: 70px;
+}
