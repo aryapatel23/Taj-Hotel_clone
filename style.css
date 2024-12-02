@@ -1,0 +1,74 @@
+body{
+    margin-top: -8px;
+    margin-left: -1px;
+    width: 100vw;
+    overflow-x: hidden;
+    background-color: white;
+}
+video{
+    width: 100vw;
+}
+.nevbar{
+    margin-left: 50px;
+    margin-top: -720px;
+    padding-bottom: 520px;
+    color: white;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+}
+.nevflexleft{
+    display: flex;
+    font-weight: 500;
+}
+.nevspace{
+    padding-left: 23px;
+}
+.nevflexright{
+    display: flex;
+    align-items: center;
+    margin-left: 200px;
+}
+.book{
+    background-color: #AD8B3A;
+    margin-left: 20px;
+    width: 180px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+}
+.firstsearchicon{
+    background-color: #AD8B3A;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    padding-bottom: 30px;
+}
+.firstbody{
+
+}
+.globalicon{
+    display: flex;
+    margin-top: 80px;
+    font-size: 40px;
+    color: black;
+}
+.globaltxt{
+    margin: 50px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.56vw;
+    font-family: Inter, sans-serif;
+    color: #45443F;
+    color: #45443F;
+    text-align: center;
+    opacity: 0.8;
+}
+.globalimage{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
